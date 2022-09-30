@@ -1,0 +1,84 @@
+/* general styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    user-zoom: none;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --litcolor:#ffffff;
+    --bikcolor:#000000;
+    --altcolor:#f57328;
+    --hdfront: 'Abyssinica SIL', serif;
+    --titfont: 'Noto Sans JP', sans-serif;
+    --pfont:'Oswald', sans-serif;
+}
+.px{
+    padding:0px 100px;
+}
+.df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    background-color: var(--altcolor);
+    padding: 5px 20px;
+    color: var(--litcolor);
+}
+.btn1:hover{
+    background: none;
+    color: var(--altcolor);
+    border: 2px solid var(--altcolor);
+    padding: 5px 20px;
+}
+
+/* nav styling */
+nav{
+    background-color: var(--litcolor);
+    width: auto;
+    height: 10vh;
+}
+#brands{
+    font-family: var(--hdfront);
+    color: var(--bikcolor);
+    font-size: 700;
+}
+nav li{
+    margin: 0px 20px;
+}
+nav a{
+    color: var(--bikcolor);
+    font-family: var(--titfont);
+}
+nav div a{
+    margin: 0px 20px;
+}
+/* main styling */
+main{
+    width: auto;
+    height: 90vh;
+    background-color:var(--litcolor);
+}
+.main-box{
+    width: 50%;
+    height: 60vh;
+}
+.main-box img{
+    display: block;
+    margin: 0px auto;
+}
+.hero-text{
+    font-family: var(--hdfront);
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+p{
+    font-family: var(--pfont);
+    text-align: justify;
+    margin: 20px 0px;
+}
